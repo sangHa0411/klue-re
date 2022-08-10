@@ -20,6 +20,8 @@ import warnings
 
 def train(args):
 
+    warnings.simplefilter("ignore", UserWarning)
+    
     # -- Seed
     seed_everything(args.seed)
 

@@ -1,4 +1,3 @@
 # Framework
 torch==1.10.0
 transformers==4.19.0
-datasets==2.3.0
